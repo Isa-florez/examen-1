@@ -162,7 +162,7 @@ def register_sale():
     sales.append(sale)
 
     # Cuenta para el "Top 3"
-    product_sales_counter[product_id] = product_sales_counter.get(product_id, 0) + quantity
+    product_sales_counter[product_id] = product_sales_counter.get(product_id, 0) + quantity # .get obtener datosde un diccionario
 
     print("Sale registered successfully!")
 
